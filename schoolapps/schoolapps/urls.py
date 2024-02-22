@@ -21,6 +21,6 @@ from django.conf.urls import include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('ad/',include(admissions.urls)),
-    path('fin/',include(financial.urls)),
+    path('ad/',include('admissions.urls')),
+    path('fin/',include('financial.urls')),
 ]
