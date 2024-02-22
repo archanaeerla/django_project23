@@ -1,6 +1,6 @@
 from django.urls import path
-from admissions.views import finance1
-from admissions.views import finance2
+from financial.views import finance1
+from financial.views import finance2
 
 
 urlpatterns=[
