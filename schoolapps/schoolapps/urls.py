@@ -23,6 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('newfin/',fin.finance1),
     path('oldfin/',fin.finance2),
+    
     path('newadm/',adv.admission1),
     path('oldadm/',adv.admission2),
 ]
