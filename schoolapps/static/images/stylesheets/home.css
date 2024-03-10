@@ -27,3 +27,10 @@ img{
 h2{
     text-align: center ;
 }
+button{
+    width:150px;
+    background-color: grey;
+    color:white;
+
+}
+button
